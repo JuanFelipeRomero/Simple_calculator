@@ -11,43 +11,41 @@
         <section class="calc-section">
 
             <div class="calc-container">
-                
-                <div class="result">0</div>
+                <input type="text" id='screen' name="screen" value=""></input>
                 <div class="calc-buttons">
-                    <button class="porcentaje-button button">%</button>
-                    <button class="raiz-button button">√</button>
-                    <button class="ce-button button">CE</button>
-                    <button class="c-button button">C</button>
+                    <button class="button operator" data-value="(">(</button>
+                    <button class="button operator" data-value=")">)</button>
+                    <button class="clear" id="clear" data-value="ce">AC</button>
+                    <button class="delete" id="delete" data-value="ce">DEL</button>
 
-                    <button class="7-button button">7</button>
-                    <button class="8-button button">8</button>
-                    <button class="9-button button">9</button>
-                    <button class="menos-button button">-</button>
+                    <button class="button number" data-value="7">7</button>
+                    <button class="button number" data-value="8">8</button>
+                    <button class="button number" data-value="9">9</button>
+                    <button class="button operator" data-value="-">-</button>
     
-                    <button class="4-button button">4</button>
-                    <button class="5-button button">5</button>
-                    <button class="6-button button">6</button>
-                    <button class="divido-button button">÷</button>
+                    <button class="button number" data-value="4">4</button>
+                    <button class="button number" data-value="5">5</button>
+                    <button class="button number" data-value="6">6</button>
+                    <button class="button operator" data-value="/">÷</button>
                 
+                    <button class="button number" data-value="1">1</button>
+                    <button class="button number" data-value="2">2</button>
+                    <button class="button number" data-value="3">3</button>
+                    <button class="button operator" data-value="*">x</button>
                 
-                    <button class="1-button button">1</button>
-                    <button class="2-button button">2</button>
-                    <button class="3-button button">3</button>
-                    <button class="multiplicacion-button button">x</button>
-                
-                
-                    <button class="dot-button button">.</button>
-                    <button class="0-button button">0</button>
-                    <button class="igual-button button">=</button>
-                    <button class="suma-button button">+</button>
+                    <button class="button operator" data-value=".">.</button>
+                    <button class="button number" data-value="0">0</button>
+                    <button class="equal" id="equal">=</button>
+                    <button class="button operator" data-value="+">+</button>
                 </div>
             </div>
         </section>
         <section class="modes-section">
             <div class="modes-container">
-
+                <h2>Comming soon...</h2>
             </div>
         </section>
     </main>
+    <script src="./src/main.js"></script>
 </body>
 </html>

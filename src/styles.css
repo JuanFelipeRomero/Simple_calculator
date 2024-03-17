@@ -37,10 +37,10 @@ body {
 }
 
 
-
 @media screen and (min-width: 320px) {
 
-    .result {
+    #screen {
+        width: 100%;
         text-align: right;
         border: 1px solid black;
         padding: 20px 0px 20px;
