@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simple calculator</title>
     <link rel="stylesheet" href="./src/styles.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
         <section class="calc-section">
 
             <div class="calc-container">
-                <input type="text" id='screen' name="screen" value=""></input>
+                <input type="text" class="screen" id='screen' name="screen" value=""></input>
                 <div class="calc-buttons">
                     <button class="button operator" data-value="(">(</button>
                     <button class="button operator" data-value=")">)</button>
@@ -33,16 +33,11 @@
                     <button class="button number" data-value="3">3</button>
                     <button class="button operator" data-value="*">x</button>
                 
-                    <button class="button operator" data-value=".">.</button>
+                    <button class="button" data-value=".">.</button>
                     <button class="button number" data-value="0">0</button>
                     <button class="equal" id="equal">=</button>
                     <button class="button operator" data-value="+">+</button>
                 </div>
-            </div>
-        </section>
-        <section class="modes-section">
-            <div class="modes-container">
-                <h2>Comming soon...</h2>
             </div>
         </section>
     </main>
